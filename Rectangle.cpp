@@ -18,3 +18,15 @@ void Rectangle::printData() {
     std::cout << "Area: " << area << std::endl;
     std::cout << "Is even: " << isEvenArea() << std::endl;
 }
+
+int Rectangle::getWidth() {
+    return width;
+}
+
+int Rectangle::getHeight() {
+    return height;
+}
+
+int Rectangle::getArea() {
+    return area;
+}

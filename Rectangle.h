@@ -10,5 +10,11 @@ public:
     bool isEvenArea();
 
     void printData();
+
+    int getWidth();
+
+    int getHeight();
+
+    int getArea();
 };
 
