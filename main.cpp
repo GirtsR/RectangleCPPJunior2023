@@ -24,9 +24,9 @@ int main(int, char**) {
 
     std::ofstream outfile("out.txt");
 
-    for (int i = 0; i < rectangles.size(); i++) {
-        outfile << rectangles[i].getWidth() << " " << rectangles[i].getHeight() << " "
-                << rectangles[i].getArea() << " " << rectangles[i].isEvenArea() << std::endl;
+    for (auto rectangle : rectangles) {
+        outfile << rectangle.getWidth() << " " << rectangle.getHeight() << " "
+                << rectangle.getArea() << " " << rectangle.isEvenArea() << std::endl;
     }
 
     return 0;
